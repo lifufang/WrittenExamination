@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Search_input</title>
+	<link rel="stylesheet" type="text/css" href="./css/Search_Input.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+</head>
+<body>
+	<div class="search_content">
+		<input type="text" id="search_input" placeholder="请输入搜索内容" oninput="onTextChange(event)">
+		<span id="clear" class="glyphicon glyphicon-remove"></span>
+		<span id="chevron" class="glyphicon glyphicon-chevron-down"></span>
+		<div class="search_result">
+			<ul id="search_list">
+				<li>T</li>
+				<li>Ten</li>
+				<li>Twelve</li>
+				<li>Twenty-four</li>
+				<li>Twenty-three</li>
+			</ul>
+		</div>
+	</div>
+	<div class="date_content">
+		<div class="date_picker">
+			<span class="time"></span>
+		</div>
+		<div class="choose_date">
+			<div class="month_content">
+				<span id="last_month" class="glyphicon glyphicon-chevron-left"></span>
+				<span class="month">March 2017</span>
+				<span id="next_month" class="glyphicon glyphicon-chevron-right"></span>
+			</div>
+			<div class="day_content">
+				<table class="day_table">
+					<tbody>
+						<tr>
+							
+						</tr>
+						<tr>
+							
+						</tr>
+						<tr>
+							
+						</tr>
+						<tr>
+							
+						</tr>
+						<tr>
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="./js/Search_Input.js"></script>	
+</body>
+</html>

@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url("../images/xingkong.jpeg");
+	background-size: cover;
+}
+.search_content {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 539px;
+	height: 34px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+#search_input {
+	width: 460px;
+	margin: 6px 0 0 7px;
+	padding: 6px 12px;
+	height: 22px;
+	font-size: 14px;
+	border: 0;
+	outline: 0;
+}
+.search_result {
+	width: 539px;
+	position: absolute;
+	top:34px;
+}
+
+.search_result li {
+	display: none;
+	width: 100%;
+	height: 30px;
+	padding: 6px 19px;
+	background-color: #fff;
+}
+.search_result li:hover {
+	background-color: #ecf5ff;
+}
+
+#clear {
+	position: absolute;
+	width: 24px;
+	height: 34px;
+	color: #98999b;
+	right: 41px;
+	top: 8px;
+}
+#chevron {
+	position: absolute;
+	width: 24px;
+	height: 34px;
+	color: #98999b;
+	right: 15px;
+	top: 8px;
+}
+.date_content {
+	position: relative;
+	width: 539px;
+	height: 34px;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding: 6px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+.time {
+	color: #7d7d7d;
+}
+.choose_date {
+	position: absolute;
+	top: 34px;
+	width: 250px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+.month_content:after {
+	display: block;
+	content: '';
+	height: 0;
+	clear: both;
+}
+#last_month {
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#next_month {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.month {
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.day_content {
+	margin-bottom: 10px;
+}
+.day_table {
+	width: 100%;
+}
+.day_table tr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.day_table tr td {
+	padding-left: 13px;
+}
+.day_table tr td:hover {
+	background-color: #286090;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
